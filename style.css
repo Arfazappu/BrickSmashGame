@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.838);
+}
+
+
+/* index page */
+.game{
+    display: flex;
+    flex-direction: column;
+}
+.game-name {
+    font-size: 3em;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .game-name span {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .game-name span:nth-child(1) {
+    color: #e74c3c; /* Red */
+  }
+  
+  .game-name span:nth-child(2) {
+    color: #2ecc71; /* Green */
+  }
+  
+  .game-name span:nth-child(3) {
+    color: #f39c12; /* Orange */
+  }
+  
+  .game-name span:nth-child(4) {
+    color: #3498db; /* Blue */
+  }
+  
+  .game-name span:nth-child(5) {
+    color: #9b59b6; /* Purple */
+  }
+  
+  .game-name span:nth-child(6) {
+    color: #e67e22; /* Dark Orange */
+  }
+  
+  .game-name span:nth-child(7) {
+    color: #1abc9c; /* Teal */
+  }
+  
+  .game-name span:nth-child(8) {
+    color: #e74c3c; /* Red */
+  }
+  
+  .game-name span:nth-child(9) {
+    color: #2ecc71; /* Green */
+  }
+  
+  .game-name span:nth-child(10) {
+    color: #f39c12; /* Orange */
+  }
+  
+  .game-description {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .start-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-button:hover {
+    background-color: #2980b9;
+  }
+
+
+
+
+.btn-container{
+    width: 250px;
+    height: 250px;
+    /* background-color: rgb(49, 45, 45); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn-medium-container{
+    width: 500px;
+    height: 500px;
+    /* background-color: rgb(49, 45, 45); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn-container{
+    width: 250px;
+    height: 250px;
+    /* background-color: rgb(49, 45, 45); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn{
+    width: 45%;
+    height: 45%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: white;
+}
+.btn1{
+    background-color: crimson;
+}
+.btn2{
+    background-color: royalblue;
+}
+.btn3{
+    background-color: seagreen;
+}
+.btn4{
+    background-color: orangered;
+}
+
+.btn1:active{
+    box-shadow:inset 0px 0px 50px 25px rgb(255, 79, 114);
+}
+.btn2:active{
+    box-shadow:inset 0px 0px 50px 25px rgb(104, 141, 253);
+}
+.btn3:active{
+    box-shadow:inset 0px 0px 50px 25px rgb(84, 254, 158);
+}
+.btn4:active{
+    box-shadow:inset 0px 0px 50px 25px rgb(250, 179, 45);
+}
+
+.button1{
+    box-shadow:inset 0px 0px 50px 25px rgb(255, 79, 114);
+}
+.button2{
+    box-shadow:inset 0px 0px 50px 25px rgb(104, 141, 253);
+}
+.button3{
+    box-shadow:inset 0px 0px 50px 25px rgb(84, 254, 158);
+}
+.button4{
+    box-shadow:inset 0px 0px 50px 25px rgb(250, 179, 45);
+}
+
+.btn5 {
+    background-color: darkorange;
+}
+
+.btn6 {
+    background-color: mediumslateblue;
+}
+
+.btn7 {
+    background-color: mediumseagreen;
+}
+
+.btn8 {
+    background-color: darkorchid;
+}
+
+.btn9 {
+    background-color: teal;
+}
+
+.btn10 {
+    background-color: goldenrod;
+}
+
+.btn11 {
+    background-color: steelblue;
+}
+
+.btn12 {
+    background-color: mediumvioletred;
+}
+
+.btn5:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(248, 156, 44);
+}
+
+.btn6:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(159, 143, 253);
+}
+
+.btn7:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(112, 246, 172);
+}
+
+.btn8:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(171, 130, 192);
+}
+
+.btn9:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(36, 251, 251);
+}
+
+.btn10:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(241, 193, 72);
+}
+
+.btn11:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(118, 190, 249);
+}
+
+.btn12:active {
+    box-shadow: inset 0px 0px 50px 25px rgb(250, 76, 186);
+}
+
+.button5 {
+    box-shadow: inset 0px 0px 50px 25px rgb(246, 183, 106);
+}
+
+.button6 {
+    box-shadow: inset 0px 0px 50px 25px rgb(154, 136, 253);
+}
+
+.button7 {
+    box-shadow: inset 0px 0px 50px 25px rgb(119, 250, 178);
+}
+
+.button8 {
+    box-shadow: inset 0px 0px 50px 25px rgb(204, 126, 243);
+}
+
+.button9 {
+    box-shadow: inset 0px 0px 50px 25px rgb(71, 255, 255);
+}
+
+.button10 {
+    box-shadow: inset 0px 0px 50px 25px rgb(253, 205, 83);
+}
+
+.button11 {
+    box-shadow: inset 0px 0px 50px 25px rgb(114, 189, 250);
+}
+
+.button12 {
+    box-shadow: inset 0px 0px 50px 25px rgb(243, 107, 193);
+}
+
+
+.resultBoard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+    display: none;
+}
+.resultbtn{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 2.5rem;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
